@@ -68,7 +68,7 @@ select{
 
 }
      
-a { color:black ; border: 1px dotted blue;
+a { color:yellow ; border: 1px dotted blue;
 }
 a:hover{color:red;}
 
