@@ -1,96 +1,252 @@
-<!DOCTYPE >
-<!-- andres martinez project 4 -->
+<!doctype html>  
+<html lang="en">
+<head>
 
+	<meta charset="utf-8">
+	
+	<title>Andres Martinez Mobile App</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
+	<link rel="stylesheet" href="css/style.css"
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
 
-<html>
-        <head>
-              <title> Andres Martinez App </title>
-              <link rel="stylesheet" href="css/styles.css">
-              
-              
-             
-        
-        
-        
-        </head>
-         <body>
-         
-         
-         
-         
-              
-               <div >
-              <img src="img/Feature-chest.jpg"  title="ready to get ripped?" id="chestpic"/>
+</head>
+<body>
+
+	<div data-role="page" id="Home" data-theme="b">
+	
+	        <div data-role="header" data-position="fixed" data-theme="b">
+	           <h1>A & M Ulimate Workout</h1>
+	      </div>
+	       
+	       
+	       <div data-role="content"> 
+	         
+	         
+	        
+	        
+	        
+	           <div >
+                    <img src="img/Feature-chest.jpg"  title="ready to get ripped?" id="chestpic"/>
                </div>
 
-              <form id="search" action="">
-              <input name="searchFor" type="text" size="35" />
-              <a href="">search</a>
-              </form>
-
-              <form> 
-              
-              <fieldset>
-                <ul>
-                  <li>  <a href=""> Chest   </a> </li>
-                </ul>
-              </fieldset>
-               
-               <fieldset>
-                <ul>
-                  <li>  <a href=""> Abs     </a> </li>
-                </ul>
-              </fieldset>
-              
-              <fieldset>
-                <ul>
-                  <li>  <a href=""> Legs    </a> </li>
-                </ul>
-              </fieldset>
-              
-              <fieldset>
-                <ul>
-                  <li>  <a href=""> Cardio   </a> </li>
-                </ul>
-              </fieldset>
-              
-              <fieldset>
-                <ul>
-                  <li>  <a href=""> Diet   </a> </li>
-                </ul>
-              </fieldset>
-              
-              
-             
-              
-          <fieldset>
- 
-        <!--     <ul>
-                 <li> <a href=""> Chest   </a> </li>
-                 <li> <a href=""> Abs     </a> </li>
-                 <li> <a href=""> Legs    </a> </li>
-                 <li> <a href=""> Cardio  </a> </li>
-                 <li> <a href=""> Diet     </a> </li>
-             </ul> -->
-              
-              
-             
-         <p>If your looking for the best App out their to motivate you and pump you up, look no more!Get ripped in 30 days!! </p>    
+	           	           
+	           <ul data-role="listview">
+	               <li> 
+	                    <a href="#Chest">
+			                 <h3>Chest</h3> 
+			                 <p> Extreme chest workouts!</p>
+		                </a>
+	               </li>
+	               
+	               <li> 
+	                      <a href="#Legs">
+		                     <h3> Legs </h3> 
+		                     <p>Legs for days!</p>
+	                      </a>
+	               
+	               </li>
+	               
+	               
+	               <li>
+	                    <a href="#Abbs">
+		                   <h3>Abbs</h3>
+		                   <p> Washboard abbs routine!</p> 
+		                </a> 
+	                </li>
+	               
+	               
+	               <li>
+	                    <a href="#Cardio">
+		                    <h3>Cardio </h3> 
+		                    <p>Heart and Wind Workouts</p>
+		                </a>
+	                
+	                </li>
+	               
+	               
+	               
+	               <li> 
+	                    <a href="#Diet">
+		                   <h3> Diet</h3>
+		                   <p>Eating Right, Feel Right!</p>
+	                   </a>
+	                </li>
+	             
+	           
+	           </ul>
+	           
+	           
+	       
+	       
+	           <p>If your looking for the best App out their to motivate you and pump you up, look no more!Get ripped in 30 days!! </p>    
           
-              
-              <q> <a href="additem.html"> <input type="Button"  id="ripready" value="click here if you are ready to get ripped!! or add an item"></a> </q>
-              
-              
-              
-              
-              
-                    </fieldset>
-              </form>
-         
-         
-         
-         </body>
+               <a href="additem.html" data-role="button">"Click here to get ripped, or add an item"</a>
+	       
+	       </div>
+	
+	</div>
+	
+	////////
+	
+	<div data-role="page" id="Chest" data-theme="b" data-add-back-btn="true "> 
+	
+	
+	
+	
+			    <div data-role="header" data-position="fixed" data-theme="b">
+			      <h1>A & M Chest </h1>
+			    </div>
+			    
+			    
+			    <div data-role="content">
+			    
+			    
+			    
+			    
+			    </div>
+			    
+			    
+	 
+	
+	
+	
+	 </div>
+	 
+	 //////////
+	 
+	 <div data-role="page" id="Legs" data-theme="b" data-add-back-btn="true "> 
+	
+	
+	
+	
+	
+			    <div data-role="header" data-position="fixed" data-theme="b">
+			      <h1>A & M Legs </h1>
+			    </div>
+			    
+			    
+			    <div data-role="content">
+			    
+			    
+			    
+			    
+			    </div>
+			    
+			    
+	 
+	
+	
+	
+	 </div>
+	 
+	 /////////
+	 
+	  <div data-role="page" id="Abbs" data-theme="b" data-add-back-btn="true "> 
+	
+	
+	
+	
+	
+			    <div data-role="header" data-position="fixed" data-theme="b">
+			      <h1>A & M Abbs </h1>
+			    </div>
+			    
+			    
+			    <div data-role="content">
+			    
+			    
+			    
+			    
+			    </div>
+			    
+			    
+	 
+	
+	
+	
+	 </div>
+     /////////
+     
+       <div data-role="page" id="Cardio" data-theme="b" data-add-back-btn="true "> 
+	
+	
+	
+	
+	
+			    <div data-role="header" data-position="fixed" data-theme="b">
+			      <h1>A & M Cardio </h1>
+			    </div>
+			    
+			    
+			    <div data-role="content">
+			    
+			    
+			    
+			    
+			    </div>
+			    
+			    
+	 
+	
+	
+	
+	 </div>
+	 
+	 ////
+	 
+	   <div data-role="page" id="Diet" data-theme="b" data-add-back-btn="true "> 
+	
+	
+	
+	
+	
+			    <div data-role="header" data-position="fixed" data-theme="b">
+			      <h1>A & M Diet </h1>
+			    </div>
+			    
+			    
+			    <div data-role="content">
+			    
+			    
+			    
+			    
+			    </div>
+			    
+			    
+	 
+	
+	
+	
+	 </div>
 
 
+	 
+
+	
+	
+	
+	
+	
+
+	<!-- JavaScript under here -->
+	
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
+     <script type="text/javascript"  src="js/main.js"> </script>
+     
+
+</body>
 </html>
 
